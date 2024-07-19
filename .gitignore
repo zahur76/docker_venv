@@ -1,0 +1,19 @@
+*vscode
+
+# environment
+venv
+
+# variables
+.env
+.env_prod
+test.env
+*pycache*
+
+# database
+*sqlite3
+pgdata
+
+# others
+staticfiles
+.vscode
+Pipfile.lock

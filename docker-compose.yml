@@ -1,0 +1,12 @@
+version: '3.4'
+
+services:
+  dockervenv:
+    image: dockervenv
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    ports:
+      - '80:80'
+    volumes:
+      - ./code:/app #host:container
